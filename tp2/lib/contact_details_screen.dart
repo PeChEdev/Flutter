@@ -211,7 +211,7 @@ class _ContactDetailsScreenState extends State<ContactDetailsScreen> {
                       children: [
                         TileLayer(
                           urlTemplate:
-                          "https://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}&key=AIzaSyDdCWSi7didWdBAML7OD8iZu5jusvnvp5I",
+                          "",
                           subdomains: const ['0', '1', '2', '3'],
                         ),
                         MarkerLayer(
